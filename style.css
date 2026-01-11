@@ -77,7 +77,7 @@ body{
     background: #38a169;
     box-shadow: 0 0 0 3px #38a16926;
 }
-.hero .bigtxt{
+.hero .herotxt{
     font-style: Bold;
     color: #FFFFFF;
     font-size: 72px;
@@ -138,6 +138,33 @@ p1{
 }
 #hero-button2:hover{
     background-color: #fff5f5;
+    color: #000000;
+}
+.cards-section{
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    background-color: #ffffff;
+}
+.txt-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+.title-txt{
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
     color: #000000;
 }
 
