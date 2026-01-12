@@ -94,7 +94,6 @@ body{
 }
 p1{
     color: #FFFFFF;
-    font-style: Regular;
     margin-top: 40px;
     font-size: 18px;
     font-weight: 400;
@@ -141,7 +140,7 @@ p1{
     color: #000000;
 }
 .cards-section{
-    padding: 80px 120px;
+    padding: 50px 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,6 +165,109 @@ p1{
     line-height: 58px;
     text-align: center;
     color: #000000;
+}
+.txt-header p2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #716e6e;
+}
+.cards-container { 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    width: 280px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px #00000014;
+}
+.icon-wrapper {
+    width: 55px;
+    height: 55px;
+    background: #ff5b5b;   
+    border-radius: 50%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px; 
+}
+.icon-wrapper img {
+    width: 28px;
+    height: 28px;
+}
+.cards h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+.cards p {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.2;
+}
+.knowledge-img-container {
+    padding: 60px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#knowledge-img {
+    width: 500px;
+    height: 500px;
+}
+.knowledge-img-container-txt {
+    margin-left: 60px;
+}
+.small-grntxt {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.title-txt-kic {
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.kic-para {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #716e6e;
+    margin-bottom: 32px;
+}
+.grncheck-circle-container {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.grncheck-circle-img {
+    width: 20px;
+    height: 20px;
+}
+.grncheck-circle-txt {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left; 
 }
 
 
