@@ -130,13 +130,22 @@ p1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10;
-    padding: 12px 16px ;
+    gap: 5px;
+    padding: 11px 12px ;
     background: transparent;
     border: 1.5px solid #FFFFFF;
     border-radius: 4px;
     color: #FFFFFF;
-
+    font-size: 16px;
+    cursor: pointer;
+}
+.play-btn {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+#hero-button2:hover .play-btn{
+    filter: brightness(0);
 }
 #hero-button2:hover{
     background-color: #fff5f5;
